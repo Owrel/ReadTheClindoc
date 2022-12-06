@@ -33,4 +33,5 @@ subgrid(X,Y,(((X-1)/dim)*dim+((Y-1)/dim))) :- pos(X,Y). %- `subgrid(X,Y,S)` The 
 %@section:Translation & Output
 sudoku(X,Y,V) :- instance(X,Y,V).
 
+%- Value *V* of the the sudoku at cell position *(X,Y)* 
 #show sudoku(X,Y,V):sudoku(X,Y,V).

@@ -40,14 +40,14 @@ Facts
 
     .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 9
 
 
 Rules
 -----
 
-:ref:`pos/2`
+
+
 **pos/2**
     Dependencies: 
          - :ref:`val/1<val/1>`
@@ -57,10 +57,10 @@ Rules
 
     .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 10
 
-:ref:`subgrid/3`
+
+
 **subgrid/3**
     Dependencies: 
          - :ref:`pos/2<pos/2>`
@@ -70,11 +70,10 @@ Rules
 
     .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 14
 
 
-:ref:`sudoku/3`
+
 **sudoku/3**
      Dependencies:
           - :ref:`pos/2<pos/2>`
@@ -86,7 +85,6 @@ Rules
 
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 17
 
 **sudoku/3**
@@ -99,7 +97,6 @@ Rules
 
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 34
 
 Constraint
@@ -114,7 +111,6 @@ Constraint
 
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 23
 
 **constraint#2**
@@ -126,7 +122,6 @@ Constraint
      
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 26
 
 
@@ -140,7 +135,6 @@ Constraint
      
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
-        :linenos:
         :lines: 34
 
 Definition Dependency Graph
