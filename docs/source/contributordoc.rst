@@ -146,12 +146,12 @@ Constraint
 Definition Dependency Graph
 ---------------------------
 
-.. image:: ../../DefinitionDependencysGraph.png
+.. image:: ../../DefinitionDependencyGraph.png
 
 
 
 Rule Dependency Graph
 ---------------------------
 
-.. image:: ../../RuleDependencysGraph.png
+.. image:: ../../RuleDependencyGraph.png
 
