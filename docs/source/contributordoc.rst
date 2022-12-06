@@ -100,7 +100,7 @@ Rules
      .. literalinclude:: ../../sudoku.lp
         :language: prolog
         :linenos:
-        :lines: 31
+        :lines: 34
 
 Constraint
 ----------
@@ -112,12 +112,23 @@ Constraint
      Description:
           - Can't repeat values per row
 
+     .. literalinclude:: ../../sudoku.lp
+        :language: prolog
+        :linenos:
+        :lines: 23
+
 **constraint#2**
      Dependencies:
           - :ref:`sudoku/3<sudoku/3>`
      
      Description:
           - Can't repeat values per column
+     
+     .. literalinclude:: ../../sudoku.lp
+        :language: prolog
+        :linenos:
+        :lines: 26
+
 
 **constraint#3**
      Dependencies:
@@ -126,4 +137,21 @@ Constraint
 
      Description:
           - Can't repeat values per subgrid
+     
+     .. literalinclude:: ../../sudoku.lp
+        :language: prolog
+        :linenos:
+        :lines: 34
+
+Definition Dependency Graph
+---------------------------
+
+.. image:: ../../DefinitionDependencysGraph.png
+
+
+
+Rule Dependency Graph
+---------------------------
+
+.. image:: ../../RuleDependencysGraph.png
 
